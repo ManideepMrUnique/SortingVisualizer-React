@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Lora:ital,wght@1,700&family=Stint+Ultra+Condensed&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url('https://bestwallpapers.net/desktop/wp-content/uploads/2020/03/Best-Windows-Wallpapers-Windows-Wallpaper-Free-Download-10.jpeg');
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    background-attachment: fixed;
+    height: 110vh;
+}
+.slider{
+   margin: 10px; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.arSlider{
+    max-width: 25vw;
+    min-width: 150px;
+    margin-right: 30px;
+}
+.spSlider{
+    max-width: 25vw;
+    min-width: 150px;
+    margin-right: 30px;
+}
+.Notbutton{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transform: scale(1.5);
+}
+.Notbutton>button{
+    margin-left: 2px;
+    margin-right: 2px;
+    color: rgb(104, 58, 201);
+}
+.Notbutton>button:hover{
+    color: darkslateblue;
+    transform: scale(1.2);
+}
+.tsparticles-canvas-el{
+    position: absolute;
+}
+.Menu{
+    position: relative;
+    z-index: 1;
+    margin: 10px;
+}
+.Menu{
+    position: relative;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: rgba(166, 65, 92,0.7);
+}
+.Menu>a{
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+}
+.Menu>a:hover{
+    transform: scale(1.1);
+}
+.NotTyped-text{
+    color: rgba(223, 237, 230,0.7);;
+    font-size: 8vw;
+}
+.Introduction{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.head{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 8vw;
+    color: rgba(255, 255, 255,0.7);
+    font-family: 'Hammersmith One', sans-serif;
+}
+.NotBar{
+    position: relative;
+    z-index: 1;
+}
+.MuiSlider-markLabel{
+    color: rgba(240, 242, 245,1)!important;
+}
+canvas{
+    color: white;
+}
